@@ -35,3 +35,7 @@ The script prints the test metrics and saves `model_comparison_results.csv`.
 ## Important
 
 The script restores missing values that Task 1 had imputed using full-dataset statistics by using Task 1's saved missingness indicators. The train/test split then happens before the new imputers, scaler, and encoder are fitted. This is done to reduce leakage from the earlier cleaning stage.
+
+My Task 1 Link:
+https://github.com/hammadbabar27/Data-Cleaning-Quality-Audit
+
